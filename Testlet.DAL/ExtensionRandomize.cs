@@ -24,5 +24,10 @@ namespace Testlet.DAL
             items[j] = temp;
         }
 
+        public static string GetMessage()
+        {
+            return "Hello";
+        }
+
     }
 }
